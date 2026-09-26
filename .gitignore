@@ -1,0 +1,34 @@
+# Git/IDE
+.codex/
+
+# Build output
+Hardware/cmake_gcc/build/
+
+# CMake generated files
+**/CMakeFiles/
+**/CMakeCache.txt
+**/cmake_install.cmake
+**/compile_commands.json
+**/*.ninja
+**/*.ninja_deps
+**/*.ninja_log
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Environment/secrets
+.env
+.env.*
+!.env.example
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# OS
+Thumbs.db
+.DS_Store

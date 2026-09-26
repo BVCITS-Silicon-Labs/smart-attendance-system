@@ -1,0 +1,1869 @@
+# TERMS OF USE - SILICON LABORATORIES INC.
+# (With respect to Silicon Labs software components, this Software Bill of Materials (SBOM) is based upon Silicon Labs'
+# review and analysis of the code version when released.  It is provided "AS IS" and does not modify, change or alter
+# the terms or conditions of your use of Silicon Labs' software and/or SDKs based upon license terms and/or agreements
+# associated with this software or SDKs when distributed to you, received by you, or installed by you.  Further, no
+# warranties or obligations are created by this SBOM.  It is your obligation to comply with the terms of licenses
+# referenced in this SBOM.)
+SPDXVersion: SPDX-2.3
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: Silicon-Laboratories
+DocumentNamespace: https://silabs.com
+
+## Creation Information
+Creator: Organization: Silicon Laboratories, Inc.
+Created: 2026-08-11T05:25:07Z
+## Relationships
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-silabs.simplicity_sdk-2026.6.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: Simplicity SDK Suite
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-iostream_uart_si91x
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-sl_main
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-agents_md
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-atomic
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-bit
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-cmsis_core
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-cmsis_os2_ext_task_register
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-code_classification
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-component_catalog
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-emlib_core
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-enum
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-event_handler
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-iostream
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-iostream_retarget_stdio
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-iostream_uart_core_si91x
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-log
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-log_backend_iostream
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-log_backend_iostream_formatted
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-log_none
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-mem_pool
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-sl_assert
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-sl_common
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-sl_core
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-sl_main_init
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-sl_main_memory_init
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-sl_main_process_action
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-sl_string
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-sleeptimer
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-sleeptimer_cortexm
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-slist
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-status
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-toolchain_variant_arm
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-freertos_kernel_cortexm
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-sl_main_kernel
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-freertos
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-cmsis_rtos2_tick
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-cmsis_common
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-cmsis_rtos2_init
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0 CONTAINS SPDXRef-silabs.simplicity_sdk-2026.6.0-cmsis_rtos2_headers
+
+## Package Information
+PackageName: IO Stream: Si91x UART
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-iostream_uart_si91x
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-iostream_uart_si91x CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: System Setup (sl_main)
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-sl_main
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-sl_main CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: AGENTS.md
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-agents_md
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-agents_md CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: Atomic Operations Library
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-atomic
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-atomic CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: Bit Operations Library
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-bit
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-bit CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: CMSIS-Core
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-cmsis_core
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Apache 2.0
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-cmsis_core CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-cmsis_core ANCESTOR_OF SPDXRef-cmsis_core-6.2.0
+
+## Package Information
+PackageName: CMSIS_6
+SPDXID: SPDXRef-cmsis_core-6.2.0
+PackageVersion: 6.2.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: ARM-software
+PackageOriginator: Organization: NOASSERTION
+PackageHomePage: https://github.com/ARM-software/CMSIS_6
+ExternalRef: PACKAGE-MANAGER purl pkg:github/ARM-software/CMSIS_6@6.2.0
+PackageComment: <text>The CMSIS is a set of tools, APIs, frameworks, and work flows</text>
+## Relationships
+Relationship: SPDXRef-cmsis_core-6.2.0 DESCENDANT_OF SPDXRef-silabs.simplicity_sdk-2026.6.0-cmsis_core
+
+## Package Information
+PackageName: Task registers abstraction layer
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-cmsis_os2_ext_task_register
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-cmsis_os2_ext_task_register CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: Code Classification
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-code_classification
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-code_classification CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: Component Catalog
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-component_catalog
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-component_catalog CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: CORE
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-emlib_core
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-emlib_core CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: Enumerations
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-enum
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-enum CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: Event Handler
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-event_handler
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-event_handler CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: IO Stream
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-iostream
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-iostream CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: IO Stream: Retarget STDIO
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-iostream_retarget_stdio
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-iostream_retarget_stdio CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: IO Stream: SI91x UART Core
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-iostream_uart_core_si91x
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-iostream_uart_core_si91x CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: Log Component
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-log
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-log CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: Log Backend I/O Stream
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-log_backend_iostream
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-log_backend_iostream CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: Log Backend I/O Stream – Formatted Output
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-log_backend_iostream_formatted
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-log_backend_iostream_formatted CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: Log None
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-log_none
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-log_none CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: Memory Pool
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-mem_pool
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-mem_pool CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: Assert Functions
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-sl_assert
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-sl_assert CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: Common Functions
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-sl_common
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-sl_common CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: core
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-sl_core
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-sl_core CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: sl main Init
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-sl_main_init
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-sl_main_init CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: sl_main Setup
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-sl_main_memory_init
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-sl_main_memory_init CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: sl_main Process Action
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-sl_main_process_action
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-sl_main_process_action CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: String Functions
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-sl_string
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-sl_string CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: Sleep Timer
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-sleeptimer
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-sleeptimer CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: Sleep Timer Cortex-M Architecture Support
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-sleeptimer_cortexm
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-sleeptimer_cortexm CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: Single Link List
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-slist
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-slist CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: Status Codes Definitions
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-status
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-status CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: Toolchain for ARM
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-toolchain_variant_arm
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-toolchain_variant_arm CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: FreeRTOS Kernel ARM Cortex-M Port
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-freertos_kernel_cortexm
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Apache 2.0
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-freertos_kernel_cortexm CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-freertos_kernel_cortexm ANCESTOR_OF SPDXRef-freertos_kernel_cortexm-11.1.0
+
+## Package Information
+PackageName: CMSIS-FreeRTOS
+SPDXID: SPDXRef-freertos_kernel_cortexm-11.1.0
+PackageVersion: 11.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: ARM-software
+PackageOriginator: Organization: NOASSERTION
+PackageHomePage: https://github.com/ARM-software/CMSIS-FreeRTOS
+ExternalRef: PACKAGE-MANAGER purl https://github.com/ARM-software/CMSIS-FreeRTOS/releases/tag/v11.1.0
+PackageComment: <text>CMSIS-FreeRTOS, Version 11.1.0</text>
+## Relationships
+Relationship: SPDXRef-freertos_kernel_cortexm-11.1.0 DESCENDANT_OF SPDXRef-silabs.simplicity_sdk-2026.6.0-freertos_kernel_cortexm
+
+## Package Information
+PackageName: SL Main Kernel
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-sl_main_kernel
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-sl_main_kernel CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: FreeRTOS Kernel
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-freertos
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: MSLA
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-freertos CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-freertos ANCESTOR_OF SPDXRef-freertos-11.1.0
+
+## Package Information
+PackageName: FreeRTOS kernel
+SPDXID: SPDXRef-freertos-11.1.0
+PackageVersion: 11.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: AWS open source
+PackageOriginator: Organization: NOASSERTION
+PackageHomePage: https://github.com/FreeRTOS/FreeRTOS-Kernel
+ExternalRef: PACKAGE-MANAGER purl https://github.com/FreeRTOS/FreeRTOS-Kernel/releases/tag/V11.1.0
+PackageComment: <text>FreeRTOS kernel, Version 11.1.0</text>
+## Relationships
+Relationship: SPDXRef-freertos-11.1.0 DESCENDANT_OF SPDXRef-silabs.simplicity_sdk-2026.6.0-freertos
+
+## Package Information
+PackageName: CMSIS-RTOS2 OS Tick
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-cmsis_rtos2_tick
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Apache 2.0
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-cmsis_rtos2_tick CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-cmsis_rtos2_tick ANCESTOR_OF SPDXRef-cmsis_rtos2_tick-6.2.0
+
+## Package Information
+PackageName: CMSIS_6
+SPDXID: SPDXRef-cmsis_rtos2_tick-6.2.0
+PackageVersion: 6.2.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: ARM-software
+PackageOriginator: Organization: NOASSERTION
+PackageHomePage: https://github.com/ARM-software/CMSIS_6
+ExternalRef: PACKAGE-MANAGER purl pkg:github/ARM-software/CMSIS_6@6.2.0
+PackageComment: <text>The CMSIS is a set of tools, APIs, frameworks, and work flows</text>
+## Relationships
+Relationship: SPDXRef-cmsis_rtos2_tick-6.2.0 DESCENDANT_OF SPDXRef-silabs.simplicity_sdk-2026.6.0-cmsis_rtos2_tick
+
+## Package Information
+PackageName: Common APIs for CMSIS-Compliant Kernels
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-cmsis_common
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-cmsis_common CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+
+## Package Information
+PackageName: CMSIS-RTOS2 Initialization
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-cmsis_rtos2_init
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Apache 2.0
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-cmsis_rtos2_init CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-cmsis_rtos2_init ANCESTOR_OF SPDXRef-cmsis_rtos2_init-6.2.0
+
+## Package Information
+PackageName: CMSIS_6
+SPDXID: SPDXRef-cmsis_rtos2_init-6.2.0
+PackageVersion: 6.2.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: ARM-software
+PackageOriginator: Organization: NOASSERTION
+PackageHomePage: https://github.com/ARM-software/CMSIS_6
+ExternalRef: PACKAGE-MANAGER purl pkg:github/ARM-software/CMSIS_6@6.2.0
+PackageComment: <text>The CMSIS is a set of tools, APIs, frameworks, and work flows</text>
+## Relationships
+Relationship: SPDXRef-cmsis_rtos2_init-6.2.0 DESCENDANT_OF SPDXRef-silabs.simplicity_sdk-2026.6.0-cmsis_rtos2_init
+
+## Package Information
+PackageName: CMSIS-RTOS2 Headers
+SPDXID: SPDXRef-silabs.simplicity_sdk-2026.6.0-cmsis_rtos2_headers
+PackageVersion: 2026.6.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: Apache 2.0
+## Relationships
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-cmsis_rtos2_headers CONTAINED_BY SPDXRef-silabs.simplicity_sdk-2026.6.0
+Relationship: SPDXRef-silabs.simplicity_sdk-2026.6.0-cmsis_rtos2_headers ANCESTOR_OF SPDXRef-cmsis_rtos2_headers-6.2.0
+
+## Package Information
+PackageName: CMSIS_6
+SPDXID: SPDXRef-cmsis_rtos2_headers-6.2.0
+PackageVersion: 6.2.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: ARM-software
+PackageOriginator: Organization: NOASSERTION
+PackageHomePage: https://github.com/ARM-software/CMSIS_6
+ExternalRef: PACKAGE-MANAGER purl pkg:github/ARM-software/CMSIS_6@6.2.0
+PackageComment: <text>The CMSIS is a set of tools, APIs, frameworks, and work flows.</text>
+## Relationships
+Relationship: SPDXRef-cmsis_rtos2_headers-6.2.0 DESCENDANT_OF SPDXRef-silabs.simplicity_sdk-2026.6.0-cmsis_rtos2_headers
+
+## Package Information
+PackageName: Wiseconnect
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-SIWG917M111MGTBA
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-basic_network_config_manager
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-brd2605a
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-iostream_si91x
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-si91x_log
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-si91x_log_iostream_formatted
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-si91x_memory_default_config
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sl_http_server
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sl_si91x_internal_stack
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sl_si91x_led_917
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sl_si91x_rgb_led
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-syscalls
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-wifi
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-wifi_at_commands
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-basic_credential_manager
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-board_configuration_headers
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-brd2605a_config
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-bsd_socket
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-bsd_socket_api
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-cmsis_common_driver
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-cmsis_driver_headers
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-cmsis_peripheral_headers
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-cmsis_udma
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-cmsis_usart
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-cmsis_usart_driver
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-external_flash_none
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-external_psram_8mb
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-freertos_config
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-malloc_thread_safety
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-network_manager
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-opn_config
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-romdriver_clks
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-romdriver_crc
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-romdriver_egpio
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-romdriver_headers
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-romdriver_packing
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-romdriver_romtable
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-romdriver_romtable_headers
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-romdriver_timer
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-romdriver_udma
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-romdriver_udma_wrapper
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-romdriver_ulpss
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-rsilib_adc
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-rsilib_aux_reference_volt_config
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-rsilib_board
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-rsilib_chip
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-rsilib_clock_update
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-rsilib_crc
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-rsilib_dac
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-rsilib_egpio
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-rsilib_headers
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-rsilib_opamp
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-rsilib_sysrtc
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-rsilib_timers
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-rsilib_udma
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-rsilib_udma_wrapper
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-rsilib_usart
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-rsilib_userconfig
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-si91x_common_flash
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-si91x_debug
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-si91x_device_init_nvic
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-si91x_log_none
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-si91x_mem_config_1
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-si91x_stack_size_configuration
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sl_adc
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sl_bjt_temperature_sensor
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sl_clock_manager
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sl_dma
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sl_gpio
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sl_gpio_peripheral
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sl_si91x_agents_md
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sl_si91x_asynchronous_socket
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sl_si91x_errno
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sl_si91x_fwup
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sl_si91x_mcu
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sl_si91x_socket
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sl_si91x_wireless
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sl_ulp_timer
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sl_usart
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sl_usart_iostream
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sleeptimer_si91x
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sli_buffer_manager
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sli_command_engine
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sli_event_engine
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sli_hal_si91x
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sli_queue_manager
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sli_routing_utility
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sli_si91x_wifi_command_engine
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sli_si91x_wifi_event_handler
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sli_wifi
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-systemlevel_bod
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-systemlevel_headers
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-systemlevel_ipmu
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-systemlevel_pll
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-systemlevel_reg_spi
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-systemlevel_rtc
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-systemlevel_temp_sensor
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-systemlevel_time_period
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-systemlevel_ulpss_clk
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-udma_linker_config
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-wifi_resources
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-wiseconnect_common
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-wiseconnect_toolchain_gcc_standard
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-wiseconnect_toolchain_plugin
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0 CONTAINS SPDXRef-silabs.wiseconnect3_sdk-4.1.0-console
+
+## Package Information
+PackageName: SIWG917M111MGTBA
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-SIWG917M111MGTBA
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: MSLA
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-SIWG917M111MGTBA CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: Basic Network Configuration Manager
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-basic_network_config_manager
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: MSLA
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-basic_network_config_manager CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: BRD2605A
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-brd2605a
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-brd2605a CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: IO Stream
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-iostream_si91x
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-iostream_si91x CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: SL Log Core
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-si91x_log
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-si91x_log CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: Log Backend I/O Stream – Formatted Output
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-si91x_log_iostream_formatted
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-si91x_log_iostream_formatted CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: Default RAM Memory Configuration
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-si91x_memory_default_config
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-si91x_memory_default_config CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: HTTP Server
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sl_http_server
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: MSLA
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sl_http_server CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: Offload Network Stack
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sl_si91x_internal_stack
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sl_si91x_internal_stack CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: LED
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sl_si91x_led_917
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: MSLA
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sl_si91x_led_917 CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: RGB LED
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sl_si91x_rgb_led
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: MSLA
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sl_si91x_rgb_led CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: System Calls
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-syscalls
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: MSLA
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-syscalls CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: Wi-Fi
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-wifi
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-wifi CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: wifi_at_commands
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-wifi_at_commands
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-wifi_at_commands CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: Basic Credential Manager
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-basic_credential_manager
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: MSLA
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-basic_credential_manager CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: Board Configuration Header Files
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-board_configuration_headers
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-board_configuration_headers CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: brd2605a config
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-brd2605a_config
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-brd2605a_config CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: BSD Socket
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-bsd_socket
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-bsd_socket CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: BSD Socket API
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-bsd_socket_api
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: MSLA AND Apache-2.0
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-bsd_socket_api CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-bsd_socket_api ANCESTOR_OF SPDXRef-bsd_socket_api-1.3.0
+
+## Package Information
+PackageName: IoT Socket
+SPDXID: SPDXRef-bsd_socket_api-1.3.0
+PackageVersion: 1.3.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: MDK-Packs
+PackageOriginator: Organization: NOASSERTION
+PackageHomePage: https://github.com/MDK-Packs/IoT_Socket
+ExternalRef: PACKAGE-MANAGER purl pkg:github/MDK-Packs/IoT_Socket@1.3.0
+## Relationships
+Relationship: SPDXRef-bsd_socket_api-1.3.0 DESCENDANT_OF SPDXRef-silabs.wiseconnect3_sdk-4.1.0-bsd_socket_api
+
+## Package Information
+PackageName: CMSIS COMMON DRIVER
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-cmsis_common_driver
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-cmsis_common_driver CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: CMSIS Driver Header Files
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-cmsis_driver_headers
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Apache-2.0
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-cmsis_driver_headers CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: CMSIS Peripheral Header Files
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-cmsis_peripheral_headers
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: MSLA AND Apache-2.0
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-cmsis_peripheral_headers CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: CMSIS UDMA
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-cmsis_udma
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: MSLA AND Zlib
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-cmsis_udma CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: CMSIS USART
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-cmsis_usart
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Apache-2.0 AND Zlib
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-cmsis_usart CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: CMSIS USART DRIVER
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-cmsis_usart_driver
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-cmsis_usart_driver CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: No External Flash
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-external_flash_none
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-external_flash_none CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: 8MB PSRAM (External)
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-external_psram_8mb
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-external_psram_8mb CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: FreeRTOS Configuration
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-freertos_config
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: MIT
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-freertos_config CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: Malloc thread safety
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-malloc_thread_safety
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: MSLA
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-malloc_thread_safety CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: Network Manager
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-network_manager
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib AND Apache-2.0
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-network_manager CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: opn config
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-opn_config
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-opn_config CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: ROM DRIVER CLOCK
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-romdriver_clks
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-romdriver_clks CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: ROM DRIVER CRC
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-romdriver_crc
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-romdriver_crc CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: ROM DRIVER EGPIO
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-romdriver_egpio
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-romdriver_egpio CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: ROM Driver Headers
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-romdriver_headers
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-romdriver_headers CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: ROM DRIVER PACKING
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-romdriver_packing
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-romdriver_packing CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: ROM TABLE
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-romdriver_romtable
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-romdriver_romtable CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: ROM Table Header
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-romdriver_romtable_headers
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-romdriver_romtable_headers CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: ROM DRIVER TIMER
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-romdriver_timer
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-romdriver_timer CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: ROM DRIVER UDMA
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-romdriver_udma
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-romdriver_udma CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: ROM DRIVER UDMA WRAPPER
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-romdriver_udma_wrapper
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-romdriver_udma_wrapper CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: ROM DRIVER ULPSS
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-romdriver_ulpss
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-romdriver_ulpss CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: ADC
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-rsilib_adc
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-rsilib_adc CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: AUX REFERENCE VOLT
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-rsilib_aux_reference_volt_config
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-rsilib_aux_reference_volt_config CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: SoC Board Configurations
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-rsilib_board
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: MSLA AND Zlib
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-rsilib_board CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: Core
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-rsilib_chip
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-rsilib_chip CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: CLOCK UPDATE
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-rsilib_clock_update
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-rsilib_clock_update CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: CRC
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-rsilib_crc
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-rsilib_crc CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: DAC
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-rsilib_dac
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-rsilib_dac CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: EGPIO
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-rsilib_egpio
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-rsilib_egpio CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: RSI Peripheral Headers
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-rsilib_headers
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-rsilib_headers CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: OPAMP
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-rsilib_opamp
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-rsilib_opamp CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: SYSRTC
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-rsilib_sysrtc
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-rsilib_sysrtc CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: TIMERS API
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-rsilib_timers
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-rsilib_timers CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: UDMA
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-rsilib_udma
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-rsilib_udma CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: UDMA WRAPPER
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-rsilib_udma_wrapper
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-rsilib_udma_wrapper CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: USART
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-rsilib_usart
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-rsilib_usart CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: RSI User Configuration
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-rsilib_userconfig
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: MSLA
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-rsilib_userconfig CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: Common Flash Component
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-si91x_common_flash
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-si91x_common_flash CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: Debug Unit
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-si91x_debug
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-si91x_debug CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: NVIC Interrupt Priorities Configuration for FreeRTOS
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-si91x_device_init_nvic
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: MSLA
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-si91x_device_init_nvic CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: Log None
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-si91x_log_none
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-si91x_log_none CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: MEMORY_MCU_BASIC_WIRELESS_ADVANCED
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-si91x_mem_config_1
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-si91x_mem_config_1 CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: Stack Size Configuration
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-si91x_stack_size_configuration
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-si91x_stack_size_configuration CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: ADC
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sl_adc
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sl_adc CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: BJT Temperature Sensor
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sl_bjt_temperature_sensor
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sl_bjt_temperature_sensor CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: Clock Manager
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sl_clock_manager
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sl_clock_manager CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: DMA
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sl_dma
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sl_dma CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: GPIO
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sl_gpio
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sl_gpio CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: SL GPIO Peripheral
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sl_gpio_peripheral
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sl_gpio_peripheral CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: AGENTS.md (Generative AI project context)
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sl_si91x_agents_md
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: MSLA
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sl_si91x_agents_md CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: SiWx91x Asynchronous Socket
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sl_si91x_asynchronous_socket
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: MSLA
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sl_si91x_asynchronous_socket CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: Errno
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sl_si91x_errno
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sl_si91x_errno CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: Firmware Upgrade (SiWx91x)
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sl_si91x_fwup
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: MSLA
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sl_si91x_fwup CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: MCU Subsystem
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sl_si91x_mcu
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: MSLA
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sl_si91x_mcu CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: SiWx91x Socket
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sl_si91x_socket
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sl_si91x_socket CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: SiWx91x Wireless Subsystem
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sl_si91x_wireless
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sl_si91x_wireless CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: ULP Timer
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sl_ulp_timer
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sl_ulp_timer CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: USART
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sl_usart
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sl_usart CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: IO Stream: USART
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sl_usart_iostream
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sl_usart_iostream CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: Sleep Timer
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sleeptimer_si91x
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sleeptimer_si91x CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: sli Buffer Manager
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sli_buffer_manager
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sli_buffer_manager CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: Command Engine
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sli_command_engine
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sli_command_engine CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: Event Engine
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sli_event_engine
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sli_event_engine CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: SiWx91x Wireless Subsystem HAL
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sli_hal_si91x
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sli_hal_si91x CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: SLI Queue Manager
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sli_queue_manager
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sli_queue_manager CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: Sli Routing Utility
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sli_routing_utility
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sli_routing_utility CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: Sli SiWx91x WiFi Command Engine
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sli_si91x_wifi_command_engine
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sli_si91x_wifi_command_engine CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: Sli SiWx91x WiFi handler
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sli_si91x_wifi_event_handler
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sli_si91x_wifi_event_handler CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: SLI Wi-Fi
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sli_wifi
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-sli_wifi CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: BOD
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-systemlevel_bod
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-systemlevel_bod CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: System-Level API Headers
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-systemlevel_headers
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-systemlevel_headers CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: IPMU
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-systemlevel_ipmu
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-systemlevel_ipmu CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: PLL
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-systemlevel_pll
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-systemlevel_pll CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: REG SPI
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-systemlevel_reg_spi
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-systemlevel_reg_spi CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: RTC
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-systemlevel_rtc
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-systemlevel_rtc CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: TEMPERATURE SENSOR
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-systemlevel_temp_sensor
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-systemlevel_temp_sensor CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: TIME PERIOD
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-systemlevel_time_period
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-systemlevel_time_period CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: ULPSS CLOCK
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-systemlevel_ulpss_clk
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-systemlevel_ulpss_clk CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: UDMA Linker Configuration
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-udma_linker_config
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-udma_linker_config CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: WiSeConnect Resources
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-wifi_resources
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: MSLA
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-wifi_resources CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: WiSeConnect Common Library
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-wiseconnect_common
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-wiseconnect_common CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: GCC Toolchain Standard Linker
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-wiseconnect_toolchain_gcc_standard
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-wiseconnect_toolchain_gcc_standard CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: GCC Toolchain Support
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-wiseconnect_toolchain_plugin
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: Zlib
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-wiseconnect_toolchain_plugin CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
+
+## Package Information
+PackageName: Console
+SPDXID: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-console
+PackageVersion: 4.1.0
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: NOASSERTION
+PackageLicenseConcluded: MSLA
+## Relationships
+Relationship: SPDXRef-silabs.wiseconnect3_sdk-4.1.0-console CONTAINED_BY SPDXRef-silabs.wiseconnect3_sdk-4.1.0
