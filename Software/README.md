@@ -23,7 +23,7 @@ Local classroom face-recognition attendance system for students.
    `.venv\Scripts\activate`
 5. Run:
    `pip install -r backend\requirements.txt`
-6. Copy `.env.example` to `.env` and edit ESP32 settings.
+6. Copy `.env.example` to `.env` and edit  settings.
 7. Run `start.bat`.
 8. Open http://127.0.0.1:8000
 
